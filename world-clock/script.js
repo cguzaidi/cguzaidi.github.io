@@ -18,7 +18,7 @@ function WorldClockSlider() {
     const timeBound = 1440; // minutes
     const isRTL = document.dir === "rtl";
     const cities = [
-       { name: "Kuala Lumpur", timeZone: "Asia/Kuala_Lumpur" },
+        { name: "Kuala Lumpur", timeZone: "Asia/Kuala_Lumpur" },
 		{ name: "Tokyo", timeZone: "Asia/Tokyo" },
 		{ name: "San Francisco", timeZone: "America/Los_Angeles" },
 		{ name: "Philadelphia", timeZone: "America/New_York" },
