@@ -18,11 +18,12 @@ function WorldClockSlider() {
     const timeBound = 1440; // minutes
     const isRTL = document.dir === "rtl";
     const cities = [
-        { name: "San Francisco", timeZone: "America/Los_Angeles" },
-        { name: "Philadelphia", timeZone: "America/New_York" },
-        { name: "London", timeZone: "Europe/London" },
-        { name: "New Delhi", timeZone: "Asia/Kolkata" },
-        { name: "Tokyo", timeZone: "Asia/Tokyo" }
+       { name: "Kuala Lumpur", timeZone: "Asia/Kuala_Lumpur" },
+		{ name: "Tokyo", timeZone: "Asia/Tokyo" },
+		{ name: "San Francisco", timeZone: "America/Los_Angeles" },
+		{ name: "Philadelphia", timeZone: "America/New_York" },
+		{ name: "London", timeZone: "Europe/London" },
+		{ name: "New Delhi", timeZone: "Asia/Kolkata" }
     ];
     function handleMouseDown(e) {
         e.preventDefault();
